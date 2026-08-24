@@ -1,0 +1,73 @@
+
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color:#f4f4f9;
+    padding-top:50px;
+}
+button{
+    padding:10px 20px;
+    background-color:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover {
+    background-color:#0056b3;
+}
+
+.profile-img{
+    width: 130px;
+    height:130px;
+    border-radius:50%; /*   */
+    object-fit:cover;
+    margin-top:20px;
+}
+
+/* skills section*/
+.skills{
+    list-style:none;
+    padding:0;
+}
+.skills li{
+    background:#ffffff;
+    display: inline-block;
+    padding: 8px 15px;
+    margin:5px;
+    border-radius:20px;
+    box-shadow:0px 2px  5px rgba(0,0,0,0,0.1);
+}
+
+/* social links*/
+
+.social-links a {
+    display:inline-block;
+    margin:10px;
+    color:#007bff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    text-decoration:underline;
+}
+
+/*projects section*/
+.project-card{
+    background:#ffffff;
+    padding:15px;
+    margin:15px auto;
+    max-width:300px;
+    border-radius:8px;
+    box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+}
+
+*/ footer section*/
+footer{
+    margin-top:40px;
+    padding:15px;
+    color:#777;
+    font-size:14px;
+}
