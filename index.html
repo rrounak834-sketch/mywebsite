@@ -9,6 +9,7 @@
        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <button id="theme-btn"onclick="toogletheme()">dark mode</button>
         <h1>welcome  to my website</h1>
 
     <img src="profile.jpg" alt="profile picture" class="profile-img">
@@ -38,6 +39,17 @@
        </div> 
        <footer>
         <p>2026 rounak.all rights reserved.</p>
-       </footer>   
+       </footer>
+       <script>
+        function toggletheme() {
+            document.body.classlist.toggle("dark-mode");
+            var btn=document.getelElementbyId("theme-btn");
+            if (document.body.classlist.contains("dark-mode")){
+                btn.innerText="Dark mode";
+            }else{
+                btn.innertext="dark Mode";
+            }
+        }
+       </script>   
     </body>
 </html>

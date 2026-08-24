@@ -71,3 +71,19 @@ footer{
     color:#777;
     font-size:14px;
 }
+
+/*Dark Mode Theme*/
+body.dark-mode{
+    background-color:#121212;
+    color:#ffffff;
+}
+
+body.dark-mode.skills li,
+body.dark-mode.project-card {
+    background-color:#1e1e1e;
+    color:#ffffff;
+}
+
+body.dark-mode a {
+    color:#4da3ff;
+}
