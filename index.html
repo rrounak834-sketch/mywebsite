@@ -8,23 +8,41 @@
         <title>rounak's website</title>
        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <button id="theme-btn"onclick="toogletheme()">dark mode</button>
-        <h1>welcome  to my website</h1>
+     <body>
 
+    <nav class="navbar">
+        <div class="logo">rounak</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+     
+        <button id="theme-btn"onclick="toggletheme()">dark mode</button>
+
+        <!--About section-->
+        <section id="about">
+             <h1>welcome  to my website</h1>
     <img src="profile.jpg" alt="profile picture" class="profile-img">
-
         <h2>hi I'm rounak</h2>
-
         <p>I am a bca student and I am learning web development.</p>
-
         <button>contact me</button>
+        </section>
+
+        <!--skills section-->
+        <section id="skills">
         <h3>my skills</h3>
         <ul class="skills">
            <li>html</li> 
            <li>css</li>
            <li>javascript</li>
            </ul>
+           </section>
+
+           <!--projects section-->
+           <section id="projects">
         <h3>my projects</h3>
         <div class="projects">
             <div class="project-card">
@@ -32,20 +50,26 @@
                 <p>a simple portfolio website built using HTML and CSS.</p>
             </div>
         </div>
+        </section>
+
+        <!--contact section-->
+        <section id="contact">
        <h3>connect with me</h3>
        <div class="social-links">
-        <a href="https://github.com" target="_black">github</a>
-        <a href="https://linkedin.com" target="_black">linkedIn</a>
+        <a href="https://github.com" target="_blank">github</a>
+        <a href="https://linkedin.com" target="_blank">linkedIn</a>
        </div> 
+       </section>
+
        <footer>
         <p>2026 rounak.all rights reserved.</p>
        </footer>
        <script>
         function toggletheme() {
             document.body.classlist.toggle("dark-mode");
-            var btn=document.getelElementbyId("theme-btn");
+            var btn=document.getElementbyId("theme-btn");
             if (document.body.classlist.contains("dark-mode")){
-                btn.innerText="Dark mode";
+                btn.innerText="light mode";
             }else{
                 btn.innertext="dark Mode";
             }
