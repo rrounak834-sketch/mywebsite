@@ -180,20 +180,20 @@ h1,h2,h3{
 }
 
 .contact-form {
-    max-width: 400px;
+    max-width: 350px;
     margin: 20px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;/**/
     gap: 12px;
 }
 
 .contact-form input, 
 .contact-form textarea {
+    width:100;
     padding: 10px;
     border: 1px solid #cbd5e1;
     border-radius: 6px;
-    font-size: 14px;
-    outline: none;
+    box-sizing:border-box;
 }
 
 .contact-form button {
