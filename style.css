@@ -157,7 +157,7 @@ transtion:background-color0.3s;
 }
 
 #about button:hover{
-    background-color:#1d4ed8; /*    */
+    background-color:#1d4ed8; /**/
 }
 
 /* logo textual fix*/
@@ -166,5 +166,9 @@ transtion:background-color0.3s;
 nav div:first-child {
     color:#ffffff !important;
     font-size:22px !important;
-    font-weight:bold!important;
+    font-weight:bold !important;
+}
+
+h1,h2,h3{
+    text-transform:capitalize;
 }
