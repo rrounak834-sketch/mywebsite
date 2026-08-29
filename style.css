@@ -33,12 +33,14 @@ button:hover {
     padding:0;
 }
 .skills li{
-    background:#ffffff;
     display: inline-block;
-    padding: 8px 15px;
+    background-color:#e2e8f0;
+    color:#0f172a;
+    padding: 6px 14px;
     margin:5px;
     border-radius:20px;
-    box-shadow:0px 2px  5px rgba(0,0,0,0,0.1);
+    font-size:14px;
+    font-weight:500;
 }
 
 /* social links*/
@@ -58,6 +60,7 @@ button:hover {
 /*projects section*/
 .project-card{
     background:#ffffff;
+    border:1px solid #e2e8f0;
     padding:15px;
     margin:15px auto;
     max-width:300px;
@@ -155,4 +158,13 @@ transtion:background-color0.3s;
 
 #about button:hover{
     background-color:#1d4ed8; /*    */
+}
+
+/* logo textual fix*/
+.navbar .logo,
+.logo,
+nav div:first-child {
+    color:#ffffff !important;
+    font-size:22px !important;
+    font-weight:bold!important;
 }
