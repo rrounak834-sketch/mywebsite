@@ -22,8 +22,9 @@ button:hover {
     width: 130px;
     height:130px;
     border-radius:50%; /*   */
+    border:3px solid #2563eb; /*  */
     object-fit:cover;
-    margin-top:20px;
+    margin-top:15px;
 }
 
 /* skills section*/
@@ -100,7 +101,7 @@ body.dark-mode a {
 }
 
 .navbar.logo{
-    color: white;
+    color:#ffffff; /*  */
     font-size:20px;
     font-weight:bold;
     text-transform:capitalize;
@@ -139,4 +140,19 @@ html{
 
 .project-card {
     transform:transform:translateY(-5x);/*  */
+}
+
+#about button{
+background-color:#2563eb;
+color:white;
+padding:10px 22px;
+border:none;
+border-radius:6px;
+font-weight:600;
+cursor:pointer;
+transtion:background-color0.3s;
+}
+
+#about button:hover{
+    background-color:#1d4ed8; /*    */
 }
