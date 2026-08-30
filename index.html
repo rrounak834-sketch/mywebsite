@@ -1,15 +1,14 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport"
-        content="width=device-width,
-        initial-scale=1.0">
-        <title>rounak's website</title>
-       <link rel="stylesheet" href="style.css">
-    </head>
-     <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounak's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">rounak</div>
         <ul class="nav-links">
@@ -18,82 +17,58 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <button id="theme-btn"onclick="toggletheme()">dark mode</button>
-        </nav>
+        <button id="theme-btn" onclick="toggletheme()">dark mode</button>
+    </nav>
 
-        <!--About section-->
-        <section id="about">
-             <h1>welcome  to my website</h1>
-    <img src="profile.jpg" alt="profile picture" class="profile-img">
-        <h2>hi I'm rounak</h2>
-        <p>I am a bca student and I am learning web development.</p>
-        <button>contact me</button>
-        </section>
+    <!-- Hero / About Section -->
+    <section id="about">
+        <h1>Welcome To My Website</h1>
+        <img src="profile.jpg" alt="profile picture" class="profile-img">
+        <h2>Hi I'm Rounak</h2>
+        <p>I am a BCA student and I am learning web development.</p>
+        <a href="#contact"><button>Contact Me</button></a>
+    </section>
 
-        <!-- Contact Section -->
-<section id="contact">
-    <h3>Contact Me</h3>
-    <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="4" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-
-    <div class="social-links">
-        <a href="https://github.com" target="_blank">GitHub</a>
-        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-    </div>
-</section>
-
-<!-- Footer -->
-<footer>
-    <p>© 2026 Rounak. All rights reserved.</p>
-</footer>
-        <!--1.hero/about section-->
-        <!--skills section-->
-        <section id="skills">
-        <h3>my skills</h3>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h3>My Skills</h3>
         <ul class="skills">
-           <li>html</li> 
-           <li>css</li>
-           <li>javascript</li>
-           </ul>
-           </section>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
 
-           <!--projects section-->
-           <section id="projects">
-        <h3>my projects</h3>
-        <div class="projects">
-            <div class="project-card">
-                <h4>personal portfolio</h4>
-                <p>a simple portfolio website built using HTML and CSS.</p>
-            </div>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h3>My Projects</h3>
+        <div class="project-card">
+            <h4>Personal Portfolio</h4>
+            <p>A simple portfolio website built using HTML and CSS.</p>
         </div>
-        </section>
+    </section>
 
-        <!--contact section-->
-        <section id="contact">
-       <h3>connect with me</h3>
-       <div class="social-links">
-        <a href="https://github.com" target="_blank">github</a>
-        <a href="https://linkedin.com" target="_blank">linkedIn</a>
-       </div> 
-       </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h3>Connect With Me</h3>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
 
-       <footer>
-        <p>2026 rounak.all rights reserved.</p>
-       </footer>
-       <script>
-        function toggletheme() {
-            document.body.classlist.toggle("dark-mode");
-            var btn=document.getElementbyId("theme-btn");
-            if (document.body.classlist.contains("dark-mode")){
-                btn.innerText="light mode";
-            }else{
-                btn.innertext="dark Mode";
-            }
-        }
-       </script>   
-    </body>
+        <div class="social-links">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Footer (Only once at the bottom) -->
+    <footer>
+        <p>© 2026 Rounak. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
