@@ -279,3 +279,108 @@ footer {
     margin-top: 50px;
     width: 100%;
 }
+/* Projects ka Grid Layout */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 320px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Chhote Buttons */
+.project-btns {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-sm {
+    display: inline-block;
+    padding: 8px 14px;
+    font-size: 13px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-sm.outline {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+.btn-sm:hover {
+    opacity: 0.9;
+}
+/* Projects layout aur cards */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.project-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 24px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Buttons styling */
+.project-btns {
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.btn-sm {
+    display: inline-block;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.btn-sm.outline {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1.5px solid #2563eb;
+}
+
+.btn-sm:hover {
+    opacity: 0.85;
+}
